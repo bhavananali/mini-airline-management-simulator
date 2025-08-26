@@ -55,7 +55,7 @@ g++ -std=c++17 -O2 -o airline main.cpp
 
 ### 2. Run the Program
 ```bash
-./airline
+./test
 ```
 
 ---
