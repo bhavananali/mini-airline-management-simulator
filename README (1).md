@@ -96,32 +96,6 @@ Proximity Factor:
 - ≤7 days: 1.5
 ```
 
----
-
-## 🛠️ Flowchart (Mermaid)
-
-```mermaid
-flowchart TD
-    Start([Program Start]) --> Seed[Seed Crew (Pilot + Attendant)]
-    Seed --> Menu[Show Main Menu]
-
-    Menu -->|1| ListAirports[List Airports]
-    Menu -->|2| AddPassenger[Add Passenger]
-    Menu -->|3| AddPilot[Add Pilot]
-    Menu -->|4| AddAttendant[Add Flight Attendant]
-    Menu -->|5| ListPeople[List Passengers & Crew]
-    Menu -->|6| BookTicket[Book Ticket]
-    Menu -->|7| ListTickets[List Tickets]
-    Menu -->|8| SimTime[Simulate Time]
-    Menu -->|0| Exit[Exit Program]
-
-    BookTicket --> Rules{Check Rules}
-    Rules -->|OK| Ticket[Create Ticket]
-    Rules -->|Fail| Error[Show Error]
-```
-
----
-
 ## 🚀 Future Improvements
 - Add flight schedules with specific dates/times.
 - Add payment/seat selection system.
@@ -131,4 +105,4 @@ flowchart TD
 ---
 
 ## 👩‍💻 Author
-Developed by **Your Name**
+Developed by **Bhavana Nali**
